@@ -1,0 +1,40 @@
+name: 'Making Website UI - Part 3'
+stepId: step3
+stepBreakDown:
+  - text: 'Add style to  `.movie` class properties as : `width: 28rem;
+  margin: 1.9rem;
+  background-color: var(--secondary_color);
+  box-shadow: 0.2rem 0.2rem 3rem 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  overflow: hidden;
+  position: relative;`'
+  - text: 'Add Style to Img to class name : `.movie-img` properties as "width: 100%;"'
+  - text: 'Add Style to `<div>` to class name : `.movie-info` properties as
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem;
+  letter-spacing: 0.1rem;
+  font-size: 1.6rem;'
+  - text: 'Add Style to `<h3>` `.movie-info h3 {color: #eee;}`
+  and `<span>` `.movie-info span {
+  background-color: var(--primary_color);
+  padding: 0.5rem 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}`'
+  - text: 'Add style or create 3 modifier class which will be used as per rating like .movie-info span.green {
+  color: lightgreen;
+} and 2 more `span.orange` and `span.red` give color as per the name so we can use that color to that text to span content'
+  - text: 'Add style to overview class as properties as : background-color: white;
+  padding: 0.8em 0.8em;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  transform: translateY(101%);
+  font-size: 1.8rem;
+  color: #a8a29e;
+  transition: all 0.2s ease;
+  box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.2);'
+  - text: 'Add pseudo-element to `.overview` of hover for that we can make the content as visible. and give properties as : transform: translateY(0);'

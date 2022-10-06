@@ -1,0 +1,9 @@
+name: 'Project Starter Menu'
+stepId: step0
+stepBreakDown:
+  - text: 'Make sure that the boilerplate code for the HTML file is syntactically'
+  - text: 'Check the style.css and style.js files are attached to the HTML file'
+  - text: 'To add Files to HTML files use the following syntax given in the instructions'
+  - text: 'Add Goggle font to the Style.css file'
+  - text: 'Add some Basic CSS to the Style.css file which are help us to the styles 
+  1. Like Box-sizing, Font-Family. following syntax given in the instructions'

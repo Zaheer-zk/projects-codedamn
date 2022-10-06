@@ -1,0 +1,31 @@
+name: 'Manipulating data part 1'
+stepId: step5
+stepBreakDown:
+  - text: 'Use Strick mode to your code which help to find the error `'use strict';` The purpose of "use strict" is to indicate that the code should be executed in "strict mode".'
+  - text: 'Create Some `const` (Variables) for fetch data from API. Create `API_URL, IMG_PATH, SEARCH_URL`. as per giving in instruction or use `https://api.themoviedb.org/3` and refer to instruction'
+  - text: 'Create some more variable `const` for DOM elements by which we can insert card elements and also for search input `const main = '' `// here you to use getElementById for DOM Manipulation, Create `main, form, search, logo`( Use querySelector for logo class)' 
+  - text: 'Create a function getMovies which will fetch movies from the API. Use  this `const res = await fetch(url); const data = await res.json();` for fetching data in the getMovies function and make conditional statement for Error handling like `if (data.results.length === 0){} else{
+    showMovies(data.results);
+    }`'
+  - text: 'The showMovies Function will show the movies details as card which we have created in html `index.html` files.
+  - Iterate in parameter of showMovies function. `movies.forEach((movie) => {}`. Destructing the results from every elements ` const { title, poster_path, vote_average, overview } = movie;`.
+  - Create new element which we have to inject in our html `const createEL = document.createElement('div');`
+  - Add Class to div class = `.main` using classList.add `createEL.classList.add('movie');`
+  - Cut that code which we created in html on main element that content of main element we will inject. 
+  `createEL.innerHTML = `
+    <img src="${IMG_PATH + poster_path}" alt="movie image" class="movie-img" />
+        <div class="movie-info">
+          <h3>${title}</h3>
+          <span class="${getOverviewRating(
+            vote_average
+          )}">${vote_average}</span>
+        </div>
+        <div class="overview">
+          <h3 class="overview">
+            ${overview}
+          </h3>
+        </div>
+    `;
+
+    main.appendChild(createEL);`'
+  - text: 'Create getOverviewRating function for getting color as per rating which we will manipulate it in our rating span content'

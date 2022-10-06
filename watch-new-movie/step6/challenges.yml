@@ -1,0 +1,8 @@
+name: 'Manipulating data part 2'
+stepId: step6
+stepBreakDown:
+  - text: 'Make a addEventListener to show the searched movie. `form.addEventListener('submit', (e) => {}`
+  Here you have to take the name and store at the variable and add that variable to `const SEARCH_URL`'
+  - text: 'Make a addEventListener to go back to main  page which we are getting by sort of famous movies...   `logo.addEventListener('click', () => {}`. '
+  - text: 'Add media query for making responsive to ever screen. Use a media query to add a breakpoint.
+  `@media only screen and (max-width: 700px) {} and @media only screen and (max-width: 500px) {}`'

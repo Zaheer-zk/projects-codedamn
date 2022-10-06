@@ -1,0 +1,35 @@
+name: Watch New Movie Project
+tags: ['HTML/CSS', 'JavaScript']
+starter-files: https://github.com/Zaheer-zk/html-playground-starter
+type: frontend
+level: easy
+cover-image: https://github.com/Zaheer-zk/watch-new-movie/blob/master/designs/watch_new_movie-preview.png
+short-description: A photo gallery website with a popup photo functionality. This will test your HTML, CSS, and JavaScript skills. All the designs are available inside the project.
+long-description: |
+  Your challenge is to build out this Movie landing page and get it looking as close to the design as possible.
+
+  This project focuses mostly on HTML, CSS, JS and APIs included for the mobile.
+
+  You can use any tools you like to help you complete this project. So if you've got something you'd like to practice, feel free to give it a go.
+
+  # Your users should be able to:
+
+  - See New Movie which is sorted by rating and newest.
+
+  - User can also search the movie by there names.
+
+  # API Documentation is available at https://developers.themoviedb.org/3/getting-started/introduction
+
+  - Download the starter code and go through the README.md file.
+
+  The `README.md` file will provide further details about the project. The `style-guide.html` file is where you'll find colors, fonts, etc.
+
+  Don't forget to share your submissions with the community to get feedback. All the best.
+
+# https://codedamn.com/projects specific section
+codedamn:
+  helper-learning-path: frontend
+  show-community-banner: true
+  playground-layout: terminal-editor-browser
+  playground-image: html
+  guided: true
