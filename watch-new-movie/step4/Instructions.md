@@ -1,4 +1,4 @@
-1. API website [Link] (https://www.themoviedb.org/)
+1. API website [Link](https://www.themoviedb.org/)
 
 ## To get API_KEY
 
