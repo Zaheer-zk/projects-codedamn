@@ -6,4 +6,4 @@ stepBreakDown:
   - text: 'To add Files to HTML files use the following syntax given in the instructions'
   - text: 'Add Goggle font to the Style.css file'
   - text: 'Add some Basic CSS to the Style.css file which are help us to the styles 
-  1. Like Box-sizing, Font-Family. following syntax given in the instructions'
+  1. Like Box-sizing, Font-Family, color`#64748b, #9ca3af`. following syntax given in the instructions'

@@ -4,7 +4,7 @@
 <main id="main"></main>
 ```
 
-2.This main section will display the movie detail. So for that there will be many movie so here will be display the movie detail card with using `flex-box`.
+2. This `main` section will display the movie detail. So for that there will be many movie so here will be display the movie detail card with using `flex-box`.
 
 ```css
 #main {
@@ -13,7 +13,7 @@
 }
 ```
 
-3.
+3. The main section contains the movie div that will be display the movie detail card.
 
 ```html
 <main id="main">
@@ -27,7 +27,7 @@
 <img src="" alt="movie image" class="movie-img" />
 ```
 
-5.
+5. Here we will show the movie detail in movie-info class div.
 
 ```html
 <div class="movie-info"></div>
@@ -42,14 +42,14 @@
 </div>
 ```
 
-7.
+7. The overview section is for information of the movies.
 
 ```html
 <div class="overview">
 </div
 ```
 
-8.Lorem20 or some other number will generate random text as per written length here Lorem20 will generate some text like = Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae aliquam ipsa in. Ducimus voluptatum, adipisci voluptate velit voluptatibus quasi eligendi!
+8. Lorem(a number) "20" or some other number will generate random text as per written length here Lorem20 will generate some text like = Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae aliquam ipsa in. Ducimus voluptatum, adipisci voluptate velit voluptatibus quasi eligendi!
 
 ```html
 <div class="overview">

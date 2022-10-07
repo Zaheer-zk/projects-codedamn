@@ -31,6 +31,8 @@
 
 ## Make some default styling for the project.
 
+- These are the color which we will using on website so we are created as var.
+
 ```css
 :root {
   --primary_color: #64748b;

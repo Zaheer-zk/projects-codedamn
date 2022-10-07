@@ -5,7 +5,7 @@
 'use strict';
 ```
 
-2. Use your API Key instead of which is written here.
+2. Use your API Key instead of which is written here which we got in step4.
 
 ```js
 const API_URL =

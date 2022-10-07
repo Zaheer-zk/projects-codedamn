@@ -12,7 +12,7 @@
 }
 ```
 
-2.
+2. We want full width of the img so: `width:100%`
 
 ```css
 .movie-img {
@@ -20,7 +20,7 @@
 }
 ```
 
-3.
+3. These class with add the details which have a H1 and the span of content rating which will we center and in display position with flex layout.
 
 ```css
 .movie-info {
@@ -47,7 +47,7 @@
 }
 ```
 
-5.
+5. Rating have range of 1 - 10 as per rating we will change the content/ text color of rating so here we are creating 3 class modifier = .red(>=3), .orange(>=5), .green(>=8) represents.
 
 ```css
 .movie-info span.green {
@@ -63,7 +63,10 @@
 }
 ```
 
-6.
+6.The Overview section styles.
+
+- The we want the section as hidden but we want the section visible when we hover the movie div.
+- For hiding we can set there left and right bottom as 0 and transform: translateY(101% by which it will be hidden which we cover entire width of the movie section.
 
 ```css
 .overview {
@@ -82,7 +85,7 @@
 }
 ```
 
-7.
+7. The transform: translateY(0) will make the overview section visible because the section goes more then a 100 per which basically taking more then a space which hidden down to section.
 
 ```css
 transform: translateY(0);

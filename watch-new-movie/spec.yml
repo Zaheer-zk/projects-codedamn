@@ -18,14 +18,6 @@ long-description: |
 
   - User can also search the movie by there names.
 
-  # API Documentation is available at https://developers.themoviedb.org/3/getting-started/introduction
-
-  - Download the starter code and go through the README.md file.
-
-  The `README.md` file will provide further details about the project. The `style-guide.html` file is where you'll find colors, fonts, etc.
-
-  Don't forget to share your submissions with the community to get feedback. All the best.
-
 # https://codedamn.com/projects specific section
 codedamn:
   helper-learning-path: frontend

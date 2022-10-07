@@ -7,6 +7,6 @@ stepBreakDown:
   - text: 'Create new `div` with class name `.movie` in main section'
   - text: 'Create `<img>` with class name as `.movie-img`'
   - text: 'Create new `<div>` with class name `.movie-info` in movie div'
-  - text: 'Create new `<h3>` tag with content as "Movie title" and `<span>` tag with class name `.green` '
+  - text: 'Create new `<h3>` tag with content as "Movie title" and `<span>` tag with class = `.green` '
   - text: 'Create new `<div>` outside of `.movie-info` class but inside the `.movie <div>` with class name as `.overview` '
   - text: 'Create `<h3>` tag with class name as `.overview` and give content as `Lorem20` (Generated random text length of 20) '
